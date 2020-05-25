@@ -43,7 +43,7 @@
     <ItemGroup>
         <Compile Include="AssemblyInfo.fs" />
         <Content Include="packages.config" />
-        <None Include="Chapter01\Ch01.fsx" />
+        <None Include="Chapter02\Ch02.fsx" />
     </ItemGroup>
     <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
 </Project>
